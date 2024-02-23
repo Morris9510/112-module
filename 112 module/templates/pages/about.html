@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block title %}About Me{% endblock title%}
+
+{% block content %}
+<h1>About The Author</h1>
+<p>My name is Morris Jacobs and I am a student at SDGKU</p>
+<p>here is a picture of a puppy from the internet: </p>
+<img src="{% static 'img/pepa.jpeg' %}" style="width:30%;">
+{% endblock content %}
